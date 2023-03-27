@@ -8,7 +8,7 @@ export function cardTmpCountrySearch({
   return `<h2>Country: ${name.official}</h2>
   <p>Capital: ${capital}</p>
   <p>Population: ${population}</p>
- 
+  <p>languages: ${Object.values(languages)}</p>
   <img src="${flags.svg}" alt="${flags.alt}" width = 200>`;
 }
 
